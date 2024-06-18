@@ -61,9 +61,17 @@ body{
 .container{
     display: block;
     margin: 30px;
-    background-color: black;
+    background-color: rgb(41, 34, 34);
     padding:20px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.container:hover{
+    scale: 1.07;
+    margin: 40px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .container span{
