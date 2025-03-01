@@ -1,0 +1,84 @@
+
+body{
+    background-image: url("https://i.redd.it/lobabzkewaf91.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(108, 160, 255);
+}
+.my-name{
+    display: block;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.my-data{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.4);
+    border-radius: 30px;
+}
+
+.my-data b{
+    font-size: large;
+    display: block;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image{
+    width: 60px;
+    margin: 5px;
+}
+
+.phone{
+    font-size: 1rem;
+    margin-bottom:30px;
+}
+.phone-number{
+    text-decoration: none;
+}
+
+.jobs{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.job-img{
+    width: 700px;   
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(26, 25, 24);
+    border-radius: 10px;
+    margin:  20px auto ;
+}
+
+.container{
+    display: block;
+    margin: 30px;
+    background-color: rgb(41, 34, 34);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.container:hover{
+    scale: 1.07;
+    margin: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container span{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
